@@ -1,0 +1,31 @@
+{
+  "@context" : {
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "Shirts" : {
+      "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts"
+    },
+    "Blouses" : {
+      "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Blouses"
+    },
+    "Tshirts" : {
+      "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Tshirts"
+    },
+    "WomensWear" : {
+      "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#WomensWear"
+    },
+    "MensWear" : {
+      "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#MensWear"
+    },
+    "Henleys" : {
+      "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Henleys"
+    },
+    "Oxfords" : {
+      "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Oxfords"
+    }
+  }
+}
