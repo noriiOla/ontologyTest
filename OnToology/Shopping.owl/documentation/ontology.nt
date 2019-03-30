@@ -1,0 +1,63 @@
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl> <http://www.w3.org/2002/07/owl#versionInfo> "Created with TopBraid Composer" .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Blouses
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Blouses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Blouses> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#WomensWear> .
+# 
+# http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Henleys
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Henleys> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Henleys> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts> .
+# 
+# http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#MensWear
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#MensWear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#MensWear> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Oxfords
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Oxfords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Oxfords> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts> .
+# 
+# http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#MensWear> .
+# 
+# http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Tshirts
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Tshirts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Tshirts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts> .
+# 
+# http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#WomensWear
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#WomensWear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#WomensWear> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#BikerT
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#BikerT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#BikerT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#MensWear> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#BikerT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Tshirts> .
+# 
+# http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#ChamoisHenley
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#ChamoisHenley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#ChamoisHenley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Henleys> .
+# 
+# http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#ClassicOxford
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#ClassicOxford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#ClassicOxford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Oxfords> .
+<http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#ClassicOxford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

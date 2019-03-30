@@ -1,0 +1,58 @@
+[ {
+  "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "Created with TopBraid Composer"
+  } ]
+}, {
+  "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#BikerT",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#MensWear", "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Tshirts" ]
+}, {
+  "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Blouses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#WomensWear"
+  } ]
+}, {
+  "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#ChamoisHenley",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Henleys" ]
+}, {
+  "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#ClassicOxford",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Oxfords", "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts" ]
+}, {
+  "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Henleys",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts"
+  } ]
+}, {
+  "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#MensWear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Oxfords",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts"
+  } ]
+}, {
+  "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#MensWear"
+  } ]
+}, {
+  "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Tshirts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#Shirts"
+  } ]
+}, {
+  "@id" : "http://www.workingontologist.org/Examples/Chapter5/Shopping.owl#WomensWear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+} ]
