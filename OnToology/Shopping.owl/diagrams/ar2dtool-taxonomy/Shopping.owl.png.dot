@@ -1,0 +1,13 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "shop:Oxfords" "shop:Blouses" "shop:Tshirts" "shop:WomensWear" "shop:Henleys" "shop:MensWear" "shop:Shirts" ; /*classes style*/
+	"shop:Blouses" -> "shop:WomensWear" [ label = "rdfs:subClassOf" ];
+	"shop:Oxfords" -> "shop:Shirts" [ label = "rdfs:subClassOf" ];
+	"shop:Shirts" -> "shop:MensWear" [ label = "rdfs:subClassOf" ];
+	"shop:MensWear" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"shop:Tshirts" -> "shop:Shirts" [ label = "rdfs:subClassOf" ];
+	"shop:WomensWear" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"shop:Henleys" -> "shop:Shirts" [ label = "rdfs:subClassOf" ];
+
+}
